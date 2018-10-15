@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*link:向未被访问的标签添加样式*/
+        a:link {
+            color: green;
+        }
+
+        /*visited:向已经被访问的标签添加样式 */
+        a:visited {
+            color: red;
+        }
+
+        /*hover:鼠标悬停 */
+        a:hover {
+            background: aqua;
+        }
+
+        /*active 向已经被激活的元素添加样式*/
+        /*focus:向拥有鼠标焦点的元素添加样式 */
+        input:focus {
+            background: pink;
+        }
+
+        /*first-child:向第一个子元素添加样式*/
+        li:first-child {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>小哥哥</li>
+    <li>小姐姐</li>
+    <li>小妹妹</li>
+</ul>
+<a href="#">本页跳转</a><br>
+<form>
+    输入框:<input type="text" name="text"/>
+</form>
+</body>
+</html>
